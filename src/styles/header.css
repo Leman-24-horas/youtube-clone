@@ -1,15 +1,17 @@
 .header {
-    height: 55px;
+    height: 57px;
     display: flex;
-    flex-direction: row; /*this is the default value, you don't actually have to write it*/
     justify-content: space-between;
 }
 
 .left-section {
-    /* background-color: lightblue; */
-    /* width: 150px; */
+    /*don't need this here, it's a nested flexbox
+      it will just occupy/strech to the space of  the items it contains
+    */
+    /* flex: 1; */ 
+
     display: flex;
-    align-items: center; /* for this to work, set this div to flexbox as well*/
+    align-items: center;
 }
 
 .hamburger-menu {
@@ -23,8 +25,7 @@
 }
 
 .middle-section {
-    /* background-color: lightpink; */
-    flex: 1;
+    flex: 1; /*take up the remaining space between left and right section*/
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;
@@ -33,43 +34,44 @@
 }
 
 .search-bar {
-    flex: 1;
+
+    flex: 1; /*to make it shrink/expand as the window size changes*/
+    width: 0px; /*to shrink all the way - input has default width*/
+
     height: 36px;
     padding-left: 10px;
-    font-size: 16px; /*placeholder font size differs from font size of text
-                       typed in the search bar    
-                    */
+    font-family: Roboto, Arial;
+    font-size: 16px;
+
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(192, 192, 192);
+    border-color: rgb(204, 204, 204);
     border-radius: 2px;
-    /* inset puts box shadow on the inside */
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-    /* search bar has default width
-       set it to 0 so that it can shrink all the way 
-    */
-    width: 0px;
+   
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05); /*I missed this one out*/
 }
 
-.search-bar::placeholder { /*sudo class*/
+/* text inside the search bar should be of same font and size when typed in  */
+.search-bar::placeholder {
     font-family: Roboto, Arial;
     font-size: 16px;
 }
 
-.search-button {
+.search-button { 
     height: 40px;
     width: 66px;
     background-color: rgb(240, 240, 240);
-    border-width: 1px;
     border-style: solid;
-    border-color: rgb(192, 192, 192); /*same as textbox*/
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: rgb(204, 204, 204);
     margin-left: -1px;
     margin-right: 10px;
 }
 
 .search-icon {
-    height: 25px;
-    margin-top: 4px;
+    height: 24px;
+    margin-top: 4px; /*this is barely noticable*/
 }
 
 .voice-search-button {
@@ -78,28 +80,27 @@
     border-radius: 20px;
     border: none;
     background-color: rgb(245, 245, 245);
-
 }
 
 .voice-search-icon {
-    height: 24px; /*images maintain their orignal ratio*/
-    margin-top: 4px;
+    height: 24px;
+    margin-top: 4px; /*this is barely noticable*/
 }
 
 .right-section {
-    /* background-color: lightblue; */
+    /* 
+    you don't need flex: 1 here
+    the right section doesn't occupy all the free space
+    so you can manually assign
+    */
     width: 180px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* prevent shrinking 
-    maintains width*/
-    flex-shrink: 0px;
 }
 
 .upload-icon {
     height: 24px;
-
 }
 
 .youtube-apps-icon {
@@ -114,11 +115,4 @@
     height: 32px;
     border-radius: 16px;
     margin-right: 20px;
-
 }
-
-/* left and right section have predefined widths
-   only the middle section adjusts when the window is made smaller/larger
-
-   after some point the middle section stops grows and maintains its width
-*/
