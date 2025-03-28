@@ -2,6 +2,16 @@
     height: 57px;
     display: flex;
     justify-content: space-between;
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(230, 230, 230);
 }
 
 .left-section {

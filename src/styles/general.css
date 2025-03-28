@@ -6,4 +6,6 @@ p {
 body {
     /*body elements by default have margins of 8px on all 4 sides*/
     margin: 0px; 
+    padding-top: 80px;
+    padding-left: 80px;
 }
