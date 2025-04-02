@@ -78,11 +78,56 @@
     border-color: rgb(204, 204, 204);
     margin-left: -1px;
     margin-right: 10px;
+
+    /* position: relative; */ /* put it down below for all buttons*/
+}
+
+.search-button, .voice-search-button, 
+.upload-icon-container, .youtube-apps-icon-container,
+.notifications-icon-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* targeting tooltip class inside the search button */
+.search-button .tooltip, 
+.voice-search-button .tooltip, 
+.upload-icon-container .tooltip,
+.youtube-apps-icon-container .tooltip,
+.notifications-icon-container .tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    bottom: -40px;
+
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none; /* prevent tooltip from popping up when mouse is over it*/
+
+    white-space: nowrap; /* prevent text wrapping*/
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.youtube-apps-icon-container:hover .tooltip,
+.notifications-icon-container:hover .tooltip {
+    opacity: 1;
 }
 
 .search-icon {
     height: 24px;
-    margin-top: 4px; /*this is barely noticable*/
 }
 
 .voice-search-button {
@@ -95,7 +140,6 @@
 
 .voice-search-icon {
     height: 24px;
-    margin-top: 4px; /*this is barely noticable*/
 }
 
 .right-section {
