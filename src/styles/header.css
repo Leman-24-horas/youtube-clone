@@ -7,6 +7,7 @@
     top: 0px;
     right: 0px;
     left: 0px;
+    z-index: 100;
 
     background-color: white;
     border-bottom-style: solid;
