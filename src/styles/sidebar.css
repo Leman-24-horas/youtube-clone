@@ -1,38 +1,87 @@
-.sidebar {
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    top: 55px;
-    /* ask yourself - I want the side-bar to stick to the left of the page, bottom
-       of the page, top of the page but not cover the header and then key in values
-       for left, bottom, top, right
-    */
-
-    background-color: white;
-    width: 72px;
-    z-index: 101;
-    padding-top: 5px;
+@media (max-width: 1200px) {
+    .sidebar {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        top: 55px;
+        /* ask yourself - I want the side-bar to stick to the left of the page, bottom
+           of the page, top of the page but not cover the header and then key in values
+           for left, bottom, top, right
+        */
+    
+        background-color: white;
+        width: 72px;
+        z-index: 101;
+        padding-top: 5px;
+    }
+    
+    .sidebar-link {
+        height: 74px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .sidebar-link:hover {
+        background-color: rgb(235, 235, 235);
+    }
+    
+    .sidebar-link img {
+        height: 24px;
+        margin-bottom: 4px;
+    }
+    
+    .sidebar-link div {
+        font-family: Roboto, Arial;
+        font-size: 10px;
+    }
 }
 
-.sidebar-link {
-    height: 74px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
+@media (min-width: 1200.1px) {
+    .sidebar {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        top: 55px;
+        /* ask yourself - I want the side-bar to stick to the left of the page, bottom
+           of the page, top of the page but not cover the header and then key in values
+           for left, bottom, top, right
+        */
+    
+        background-color: white;
+        width: 200px;
+        z-index: 200;
+        padding-top: 13px;
+    }
+    
+    .sidebar-link {
+        /* height: 50px; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: center; */
+        cursor: pointer;
 
-.sidebar-link:hover {
-    background-color: rgb(235, 235, 235);
-}
-
-.sidebar-link img {
-    height: 24px;
-    margin-bottom: 4px;
-}
-
-.sidebar-link div {
-    font-family: Roboto, Arial;
-    font-size: 10px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .sidebar-link:hover {
+        background-color: rgb(235, 235, 235);
+    }
+    
+    .sidebar-link img {
+        height: 24px;
+        /* margin-bottom: 4px; */
+        margin-right: 24px;
+    }
+    
+    .sidebar-link div {
+        font-family: Roboto, Arial;
+        font-size: 14px;
+    }
 }
