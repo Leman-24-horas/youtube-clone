@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube Clone</title>
+        <style>
+            .thumbnail {
+                width: 300px; /*css also adjusts height to preverve orignal dimension*/
+                /* height: 300px; */
+                /* object-fit: contain;
+                object-position: top; */
+
+                /* border-width: 2px;
+                border-style: solid;
+                border-color: red; */
+
+                /*change from inline-block to block */
+                display: block;
+            }
+
+            .search-bar {
+                font-size: 20px;
+                margin-left: 12px;
+                display: block;
+            }
+
+            .video-title {
+                width: 300px; /* now the para doesn't occupy the entire line just 300px worth of space*/
+            }
+
+            /* .video-author {
+                width: 400px;
+                display: inline-block;
+            }
+
+            .video-stats {
+                display: inline-block;
+            } */
+
+            /* .video-author,
+            .video-stats {
+                display: inline-block;
+            } */
+
+            .video-preview {
+                width: 300px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- these are all void elements-->
+        <input class="search-bar" type="text" placeholder="Search">
+
+
+        <!-- Each video's detail is being added as paragaphs here -->
+        <!-- paras are block elements they get up a block's worth of space - the entire line-->
+        
+
+        <!-- this contains thumbnail, title, author, stats-->
+        <!-- this container is taller than the one below-->
+        <div class="video-preview">
+            <img class="thumbnail" src="thumbnail-1.webp">
+            <p class="video-title"> Talking Tech and AI with Google CEO Sundar Pichai! </p>
+            <p class="video-author"> Marques Brownlee </p>
+            <p class="video-stats"> 3.4M views &#183; 6 months ago </p>
+        </div>
+
+        <div class="video-preview">
+            <img class="thumbnail" src="thumbnail-2.webp">
+            <p class="video-title"> Try Not To Laugh Challenge #9  </p>
+            <p class="video-author"> Markiplier </p>
+            <p class="video-stats"> 19M views &#183; 4 years ago </p>
+        </div>
+    </body>
+</html>
+
+<!-- div aka division, but it's just a box essentially-->
+<!-- div can contain other elements ie containers-->

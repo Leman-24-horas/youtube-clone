@@ -1,0 +1,29 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.container-1 {
+    background-color: lightpink;
+    width: 100px;
+}
+
+.container-2 {
+    background-color: lightblue;
+    width: 200px;
+    /* this is not needed only row2 is a flexbox */
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-2-1, .row-2-2 {
+    background-color: black;
+    color: white;
+}

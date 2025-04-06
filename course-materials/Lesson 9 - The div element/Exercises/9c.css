@@ -1,0 +1,18 @@
+div {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+    width: 300px;
+
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+p {
+    /* margin: 10px; */
+    font-family: Arial;
+}
+
+button {
+    /* margin: 10px; */
+}

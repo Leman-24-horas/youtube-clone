@@ -4,7 +4,7 @@
 ## Overview
 This repository contains the source code for a clone of the **YouTube Homepage** built using **HTML** and **CSS** as part of the HTML & CSS course by SuperSimpleDev. The goal of this project was to learn **Web Development** with semantic HTML and styling layouts using modern CSS techniques. 
 
-This repository also contains documentation of the various lessons covered throughout this course. You will find 15 folders in this repository corresponding to 15 lessons of this course. Each folder has 2 subfolders: **Learning** and **Exercises**.
+This repository also contains documentation of the various lessons covered throughout the course. You will find 15 folders in this repository corresponding to 15 lessons of this course. Each folder has 2 subfolders: **Learning** and **Exercises**.
 
 - The **Learning** folder contains notes, in the form of code snippets and examples, taken during the lesson to serve as a reference for understanding key concepts of HTML/CSS. 
 - The **Exercises** folder contains my solutions to the practice questions provided in each lesson.
@@ -13,13 +13,63 @@ Note: Lessons 16 and 17 of the course focused entirely on finishing the final Yo
 
 ### Repository Structure
 ``` bash
-    | 
+    youtube-clone\
+                    |
+                    |- course-materials\
+                    |   |- Lesson 1 - HTML Basics\   
+                    |       |- Exercises\
+                    |       |- Learning\
+                    |   |- Lesson 2 - CSS Basics\ 
+                    |   |- Lesson 3 - Hover, Transitions, Shadows\ 
+                    |   |- Lesson 4 - ChromeDev Tools & CSS Box Model\ 
+                    |   |- Lesson 5 - Text Styles\ 
+                    |               .
+                    |               .
+                    |               .
+                    |   |- Lesson 15 - Position Absolute and Relative\ 
+                    |
+                    |- readme-images\
+                    |
+                    |- src\
+                    |   |- channel-pictures\
+                    |   |- icons\
+                    |   |- styles\
+                    |   |- thumbnails\
+                    |   |- youtube.html
+                    |
+                    |- README.md    
+                    |           
 ```
 
-## Key Features
-- **Responsive Design:** The layout of the webpage can adapt seamlessly to various screen sizes. Font sizes, thumbnails, icons, and the sidebar layout adjust dynamically for an optimal viewing experience. #add image
 
-- **Tooltips:** Upon hovering, header buttons and channel logos display tooltips that provide additional information and enhance user interactivity. #add image
+## Key Features
+- **Responsive Design:** The layout of the webpage can adapt seamlessly to various screen sizes. Font sizes, thumbnails, icons, and the sidebar layout adjust dynamically for an optimal viewing experience as shown in the images below.
+
+<div style="display: flex;">
+  <figure>
+    <img src="readme-images/responsive-design-1.png" width="600">
+    <figcaption><strong>Responsive Layout – Full Width View</strong></figcaption>
+  </figure>
+
+  <figure>
+    <img src="readme-images/responsive-design-2.png" width="500">
+    <figcaption><strong>Responsive Layout – Narrow Width View</strong></figcaption>
+  </figure>
+</div>
+
+- **Tooltips:** Upon hovering, header buttons and channel logos display tooltips that provide additional information and enhance user interactivity (shown below).
+
+<div style="display: flex;">
+  <figure>
+    <img src="readme-images/tooltip-header-icon.png" width="650">
+    <figcaption><strong>Tooltip – Header Icon</strong></figcaption>
+  </figure>
+
+  <figure>
+    <img src="readme-images/tooltip-channel-logo.png" width="300">
+    <figcaption><strong>Tooltip - Channel Logo</strong></figcaption>
+  </figure>
+</div>
 
 - **Header Navigation Bar:** Includes a YouTube-style logo, responsive search bar, and user action icons like search, voice search, create, and notifications, closely resembling the real YouTube interface.
 
@@ -47,7 +97,7 @@ Note: Lessons 16 and 17 of the course focused entirely on finishing the final Yo
     ``` bash
     git clone https://github.com/Leman-24-horas/youtube-clone.git
     ```
-2. Head over to the `src` folder file explorer and open the `youtube.html` file in your browser.
+2. Head over to the `src` folder in file explorer and open the `youtube.html` file in your browser.
 
 ## Future Improvements 
 - Add more navigation links to the sidebar such as `Shorts`, `History`, `Playlists`, and a list of subscribed channels. Additionally, make the sidebar vertically scrollable to accommodate longer menus while maintaining a fixed height.

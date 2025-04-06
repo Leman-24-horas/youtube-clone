@@ -1,0 +1,63 @@
+p {
+    margin: 0px;
+    font-family: Arial;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+}
+
+.card {
+    width: 200px; /* i don't think this is needed*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    vertical-align: top; /* i don't think this is needed*/
+}
+
+.entity-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.entity-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.mutual-friends-container {
+    margin-left: 8px;
+    margin-bottom: 12px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+}
+
+.small-pic {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.num-friends {
+    color: rgb(100, 100, 100);
+}
+
+.add-button {
+    font-size: 16px;
+    background-color: rgb(24, 119, 242);;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 12px;
+    margin-left: 8px;
+}

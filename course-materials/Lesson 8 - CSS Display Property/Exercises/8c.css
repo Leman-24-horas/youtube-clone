@@ -1,0 +1,23 @@
+.logo {
+    width: 300px;
+    display: block;
+    /* object-position: center;
+    text-align: center; */
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.search-bar {
+    width: 500px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border: none;
+    border-radius: 20px;
+    
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    
+}

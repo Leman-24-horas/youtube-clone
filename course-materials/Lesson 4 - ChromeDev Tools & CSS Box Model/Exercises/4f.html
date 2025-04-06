@@ -1,0 +1,95 @@
+<style>
+    .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        margin-left: 20px;
+        transition: opacity 0.15s;
+    }
+   
+    /*these are sudo classes*/
+    /*48:00 minutes*/
+    .subscribe-button:hover {
+        /* background-color: green; these are CSS comments. HTML comments can't be used in CSS */
+        opacity: 0.7; /*fade when hovered*/
+    }
+
+    /*color change when button clicked*/
+    .subscribe-button:active {
+        /* background-color: blue; */
+        opacity: 0.4;/*fade even more when clicked*/
+    }
+
+    .join-button {
+        background-color: white;
+        color: rgb(41, 118, 211);
+        /* height: 36px;
+        width: 50px; */ 
+        /* height and width is external spacing - if you modify your button you'll have to adjust it too - hence better to add spacing on the inside aka padding*/
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        border-radius: 5px;
+        border-style: solid;
+        border-color: rgb(41, 118, 211);
+        border-width: 1px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 0.15s,
+            color 0.15s;
+    }
+
+    .join-button:hover {
+        /* to invert the color* - background becomes blue, text becomes white*/
+        background-color: rgb(41, 118, 211); 
+        color: white;
+    }
+
+    .join-button:active {
+        opacity: 0.4;
+    }
+
+    .tweet-button {
+        background-color: rgb(2, 158, 255);
+        color: white;
+        /* height: 36px;
+        width: 63px; */
+
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 12px;
+        padding-right: 12px;
+
+        border-radius: 18px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 13px;
+        transition: box-shadow 0.15s; /*transition is to make it smoother*/
+    }
+
+    .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /*horizontal, vertical, blur, color*/
+        /*rgba - a is for alpha ie the opacity*/
+    }
+
+</style>
+
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+
+<button class="join-button">
+    JOIN my Channel because it is the best channel
+</button>
+
+<button class="tweet-button">
+    Tweet
+</button>

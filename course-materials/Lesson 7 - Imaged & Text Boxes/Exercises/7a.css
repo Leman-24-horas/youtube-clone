@@ -1,0 +1,10 @@
+.photo {
+    width: 200px;
+    /* height: 200px;
+    object-fit: contain;
+    object-position: left; */
+
+    /* border-width: 2px;
+    border-style: solid; */
+    border-radius: 5px;
+}

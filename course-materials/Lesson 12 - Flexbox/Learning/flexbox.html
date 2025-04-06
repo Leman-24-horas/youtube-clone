@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox Practice</title>
+    </head>
+    <body style="
+          padding-bottom: 1000px;  
+    ">
+        <!-- flexbox 1 -->
+        <div style="
+                display: flex;
+                flex-direction: row;
+            ">
+            <div style="background-color: lightblue;">div 1 text</div>
+            <div style="background-color: lightpink;">div 2 <p>text</p></div>
+        </div>
+
+        <!-- flexbox 2 -->
+        <div style="
+                margin-top: 30px;
+                display: flex;
+                flex-direction: row;
+            ">
+            <div style="
+                background-color: lightblue;
+                width: 100px;
+            ">100px</div>
+            <div style="
+                background-color: lightpink;
+                flex: 1; /*similar to 1fr in grid*/
+            ">flex 1</div>
+        </div>
+
+        <!-- flexbox 3 -->
+        <div style="
+                margin-top: 30px;
+                display: flex;
+                flex-direction: row;
+            ">
+            <div style="
+                background-color: lightblue;
+                flex: 1; /*similar to 1fr in grid*/
+            ">flex 1</div>
+            <div style="
+                background-color: lightpink;
+                width: 100px;
+            ">100px</div>
+            <div style="
+                background-color: lightblue;
+                flex: 2; /* same as 2fr*/
+            ">flex 2</div>
+        </div>
+
+        <!-- flexbox 4 - youtube header -->
+        <div style="
+                margin-top: 30px;
+                height: 70px;
+                display: flex;
+                flex-direction: row;
+                border-width: 1px;
+                border-style: solid;
+                justify-content: center; /*to align the divs below*/
+
+            ">
+            <div style="
+                background-color: lightblue;
+                width: 100px;
+            ">100px</div>
+            <div style="
+                background-color: lightpink;
+                width: 100px;
+            ">100px</div>
+            <div style="
+                background-color: lightblue;
+                width: 100px;
+            ">100px</div>
+        </div>
+
+        <!-- flexbox 5 - youtube header v2 -->
+        <div style="
+                margin-top: 30px;
+                height: 70px;
+                display: flex;
+                flex-direction: row;
+                border-width: 1px;
+                border-style: solid;
+                justify-content: space-between; /*to align the divs below*/
+
+            ">
+            <div style="
+                background-color: lightblue;
+                width: 100px;
+            ">100px</div>
+            <div style="
+                background-color: lightpink;
+                width: 100px;
+            ">100px</div>
+            <div style="
+                background-color: lightblue;
+                width: 100px;
+            ">100px</div>
+        </div>
+
+        <!-- flexbox 6 - youtube header v3 -->
+        <div style="
+                margin-top: 30px;
+                height: 70px;
+                display: flex;
+                flex-direction: row;
+                border-width: 1px;
+                border-style: solid;
+                justify-content: space-between; /*to align the divs below*/
+                align-items: center;
+            ">
+            <div style="
+                background-color: lightblue;
+                width: 100px;
+            ">100px</div>
+            <div style="
+                background-color: lightpink;
+                width: 100px;
+            ">100px</div>
+            <div style="
+                background-color: lightblue;
+                width: 100px;
+            ">100px</div>
+        </div>
+    </body>
+</html>
+
+<!-- benefit of flexbox it's more flexible
+    widths like flex: 1 are set to individual divs instead of being rigidly set in grid -->

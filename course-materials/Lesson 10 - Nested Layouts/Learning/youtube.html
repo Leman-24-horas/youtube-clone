@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube Clone</title>
+
+        <!-- import Roboto from Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <style>
+            p {
+                font-family: Roboto, Arial;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .thumbnail {
+                width: 300px; /*css also adjusts height to preverve orignal dimension*/
+                display: block; /*change from inline-block to block */
+            }
+
+            .search-bar {
+                font-size: 20px;
+                margin-left: 12px;
+                display: block;
+            }
+
+            /* Commented this so that text does not overflow*/
+            /* .video-title {
+                width: 300px; now the para doesn't occupy the entire line just 300px worth of space
+            } */
+
+            .video-preview {
+                width: 300px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 10px;
+            }
+
+            .tech-gibba-profile-icon {
+                display: inline-block;
+                width: 50px;
+                vertical-align: top;
+            }
+
+            .video-info {
+                display: inline-block;
+                width: 200px;
+            }
+
+            .profile-pic {
+                /* take all space of its container */
+                width: 45px; 
+                border-radius: 50px;
+            }
+
+            .video-title {
+                margin-top: 0px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                margin-bottom: 12px;
+
+            }
+
+            .video-author, .video-stats {
+                font-size: 12px;
+                color: rgb(96, 96, 96);
+            }
+
+            /* .video-stats {
+                font-size: 12px;
+                color: rgb(96, 96, 96);
+            } */
+
+            .video-author {
+                margin-bottom: 4px;
+            }
+
+            .thumbnail-row {
+            margin-bottom: 12px;
+        }
+        </style>
+    </head>
+    <body>
+        <!-- these are all void elements-->
+        <input class="search-bar" type="text" placeholder="Search">
+
+
+        <!-- Each video's detail is being added as paragaphs here -->
+        <!-- paras are block elements they get up a block's worth of space - the entire line-->
+        
+
+        <!-- this contains thumbnail, title, author, stats-->
+        <!-- this container is taller than the one below-->
+        <div class="video-preview">
+            <!-- follow the drawing-->
+            <div class="thumbnail-row">
+                <!--image only-->
+                <img class="thumbnail" src="thumbnail-1.webp">
+            </div>
+
+            <div>
+
+                <div class="tech-gibba-profile-icon">
+                    <img class="profile-pic" src="mkbhd-profile-pic.jpeg">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title"> Talking Tech and AI with Google CEO Sundar Pichai! </p>
+                    <p class="video-author"> Marques Brownlee </p>
+                    <p class="video-stats"> 3.4M views &#183; 6 months ago </p>
+                </div>
+                
+            </div>
+
+            
+        </div>
+
+        <div class="video-preview">
+            <img class="thumbnail" src="thumbnail-2.webp">
+            <p class="video-title"> Try Not To Laugh Challenge #9  </p>
+            <p class="video-author"> Markiplier </p>
+            <p class="video-stats"> 19M views &#183; 4 years ago </p>
+        </div>
+    </body>
+</html>
+
+<!-- div aka division, but it's just a box essentially-->
+<!-- div can contain other elements ie containers-->

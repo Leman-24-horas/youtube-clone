@@ -1,0 +1,17 @@
+p {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+/* button {
+    display: inline-block;
+    vertical-align: middle; 
+    cursor: pointer;
+} */
+
+/* .no-button {
+    display: inline-block;
+    vertical-align: middle; 
+    cursor: pointer;
+} */

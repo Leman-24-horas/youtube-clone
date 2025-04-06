@@ -1,0 +1,10 @@
+.photo {
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover; /* cover fills the image into the box without making it stretch*/
+    object-position: center;
+
+    border-width: 2px;
+    border-style: solid;
+}

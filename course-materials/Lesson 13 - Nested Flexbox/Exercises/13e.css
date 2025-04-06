@@ -1,0 +1,71 @@
+div{
+    font-family: Arial;
+}
+
+
+
+.master {
+    width: 400px;
+    /* border-style: solid; */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.inbox-header {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 20px;
+}
+
+.email-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.email-profile-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+
+    margin-right: 10px;
+}
+
+.email-details {
+    flex: 1; /* to occupy the remaning space of the master container */
+}
+
+.title-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.time, .email-body {
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+}
+
+.email-subject {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+

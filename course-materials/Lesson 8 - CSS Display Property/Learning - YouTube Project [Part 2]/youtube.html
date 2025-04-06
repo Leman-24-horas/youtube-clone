@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube Clone</title>
+        <style>
+            .thumbnail {
+                width: 300px; /*css also adjusts height to preverve orignal dimension*/
+                /* height: 300px; */
+                /* object-fit: contain;
+                object-position: top; */
+
+                /* border-width: 2px;
+                border-style: solid;
+                border-color: red; */
+
+                /*change from inline-block to block */
+                display: block;
+            }
+
+            .search-bar {
+                font-size: 20px;
+                margin-left: 12px;
+            }
+
+            .video-title {
+                width: 300px; /* now the para doesn't occupy the entire line just 300px worth of space*/
+            }
+
+            /* .video-author {
+                width: 400px;
+                display: inline-block;
+            }
+
+            .video-stats {
+                display: inline-block;
+            } */
+
+            /* .video-author,
+            .video-stats {
+                display: inline-block;
+            } */
+
+        </style>
+    </head>
+    <body>
+        <!-- these are all void elements-->
+        <input class="search-bar" type="text" placeholder="Search">
+        <img class="thumbnail" src="thumbnail-1.webp">
+
+
+        <!-- Each video's detail is being added as paragaphs here -->
+        <!-- paras are block elements they get up a block's worth of space - the entire line-->
+        <p class="video-title"> Talking Tech and AI with Google CEO Sundar Pichai! </p>
+        <p class="video-author"> Marques Brownlee </p>
+        <p class="video-stats"> 3.4M views &#183; 6 months ago </p>
+    </body>
+</html>
+
+<!-- block element occupies the entire line-->
+<!-- inline-block element takes up as much space as needed only, not more-- eg image/search bar-->
+<!-- inline element like span or strong-->

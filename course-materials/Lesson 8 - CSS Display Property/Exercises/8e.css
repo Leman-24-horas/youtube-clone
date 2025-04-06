@@ -1,0 +1,48 @@
+p {
+    font-family: Arial; 
+    font-size: 40px;
+
+    margin-bottom: 25px;
+}
+
+input {
+    font-family: Helvetica;
+    font-size: 16px;
+
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    margin-bottom: 10px;
+    background-color:rgb(240, 240, 240);
+    border: none;
+    display: block;
+}
+
+button {
+    margin-top: 25px;
+
+    font-family: Arial;
+    font-size: 16px;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border: none;
+    cursor: pointer;
+}
+
+.request-button {
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+}
+
+.later-button {
+    background-color: rgb(240, 240, 240);
+    color: black;
+}

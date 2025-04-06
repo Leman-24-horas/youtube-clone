@@ -1,0 +1,45 @@
+div {
+    /* border-color: red;
+    border-style: solid; */
+
+    /* width: 600px; */
+    /* height: 250px; */
+
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.search-bar {
+    width: 500px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border: none;
+    border-radius: 30px;
+    
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2); 
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: rgb(245, 245, 245);
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 10px;
+
+    border: none;
+    border-radius: 3px;
+}
+

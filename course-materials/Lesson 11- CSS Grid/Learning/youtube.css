@@ -1,0 +1,77 @@
+/* Generic styles here */
+p {
+    font-family: Roboto, Arial;
+    margin: 0px;
+}
+
+/* Specialized styles here 
+
+   Convention
+   ------------
+   1) div or bigger group elements first
+   2) smaller divs/elements inside divs next
+*/
+.search-bar {
+    display: block;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+
+}
+
+.video-preview {
+    /* Make sure to remove this */
+    /* border-style: solid; */
+
+    width: 300px;
+
+    /* These should be added when another video-preview
+    div is created because we want to align with that
+    second div
+    */
+    vertical-align: top;
+    margin-right: 10px; 
+    display: inline-block;
+}
+
+.thumbnail {
+    width: 300px;
+    display: block;
+}
+
+.video-details-container {
+    margin-top: 12px;
+}
+
+.video-author-profile-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.profile-pic {
+    width: 40px;
+    border-radius: 20px;
+}
+
+.text-details-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin-left: 5px;
+}
+
+.video-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.video-creator, .video-stats {
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+}
+
+.video-creator {
+    margin-bottom: 4px;
+}
