@@ -45,29 +45,28 @@ Note: Lessons 16 and 17 of the course focused entirely on finishing the final Yo
 ## Key Features
 - **Responsive Design:** The layout of the webpage can adapt seamlessly to various screen sizes. Font sizes, thumbnails, icons, and the sidebar layout adjust dynamically for an optimal viewing experience as shown in the images below.
 
+    <br>
+    
+    **Responsive Layout - Full Width View**
 
-<img src="readme-images/responsive-design-1.png" alt="Diagram 1" width="500" style="margin-left: 40px;">
+    <img src="readme-images/responsive-design-1.png" width="500">
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;**Responsive Layout - Full Width View**
+    <br>
 
-<img src="readme-images/responsive-design-2.png" alt="Diagram 1" width="500" style="margin-left: 40px;">
+    **Responsive Layout - Narrow Width View**
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;**Responsive Layout - Narrow Width View**
-
+    <img src="readme-images/responsive-design-2.png" width="500">
 
 - **Tooltips:** Upon hovering, header buttons and channel logos display tooltips that provide additional information and enhance user interactivity (shown below).
 
-<div style="display: flex; flex-direction: column;">
-  <figure>
-    <img src="readme-images/tooltip-header-icon.png" width="650">
-    <figcaption><strong>Tooltip – Header Icon</strong></figcaption>
-  </figure>
+**Tooltip – Header Icon**
 
-  <figure>
-    <img src="readme-images/tooltip-channel-logo.png" width="300">
-    <figcaption><strong>Tooltip - Channel Logo</strong></figcaption>
-  </figure>
-</div>
+<img src="readme-images/tooltip-header-icon.png" width="650">
+
+**Tooltip - Channel Logo**
+
+<img src="readme-images/tooltip-channel-logo.png" width="300">
+
 
 - **Header Navigation Bar:** Includes a YouTube-style logo, responsive search bar, and user action icons like search, voice search, create, and notifications, closely resembling the real YouTube interface.
 
