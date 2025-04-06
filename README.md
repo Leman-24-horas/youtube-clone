@@ -45,15 +45,15 @@ Note: Lessons 16 and 17 of the course focused entirely on finishing the final Yo
 ## Key Features
 - **Responsive Design:** The layout of the webpage can adapt seamlessly to various screen sizes. Font sizes, thumbnails, icons, and the sidebar layout adjust dynamically for an optimal viewing experience as shown in the images below.
 
-<figure>
-    <img src="readme-images/responsive-design-1.png" width="500">
-    <figcaption><strong>Responsive Layout – Full Width View</strong></figcaption>
-</figure>
 
-  <figure>
-    <img src="readme-images/responsive-design-2.png" width="500">
-    <figcaption><strong>Responsive Layout – Narrow Width View</strong></figcaption>
-  </figure>
+<img src="readme-images/responsive-design-1.png" alt="Diagram 1" width="500" style="margin-left: 40px;">
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;**Responsive Layout - Full Width View**
+
+<img src="readme-images/responsive-design-2.png" alt="Diagram 1" width="500" style="margin-left: 40px;">
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;**Responsive Layout - Narrow Width View**
+
 
 - **Tooltips:** Upon hovering, header buttons and channel logos display tooltips that provide additional information and enhance user interactivity (shown below).
 
