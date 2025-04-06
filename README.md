@@ -45,26 +45,28 @@ Note: Lessons 16 and 17 of the course focused entirely on finishing the final Yo
 ## Key Features
 - **Responsive Design:** The layout of the webpage can adapt seamlessly to various screen sizes. Font sizes, thumbnails, icons, and the sidebar layout adjust dynamically for an optimal viewing experience as shown in the images below.
 
-    <img src="readme-images/responsive-design-1.png" width="500">
+    <img src="readme-images/responsive-design-1.png" width="700">
 
     **Responsive Layout - Full Width View**
 
     <br>
 
-    <img src="readme-images/responsive-design-2.png" width="500">
+    <img src="readme-images/responsive-design-2.png" width="700">
 
     **Responsive Layout - Narrow Width View**
 
 
 - **Tooltips:** Upon hovering, header buttons and channel logos display tooltips that provide additional information and enhance user interactivity (shown below).
 
-**Tooltip – Header Icon**
+    <img src="readme-images/tooltip-header-icon.png" width="650">
 
-<img src="readme-images/tooltip-header-icon.png" width="650">
+    **Tooltip – Header Icon**
 
-**Tooltip - Channel Logo**
+    <br>
 
-<img src="readme-images/tooltip-channel-logo.png" width="300">
+    <img src="readme-images/tooltip-channel-logo.png" width="300">
+
+    **Tooltip - Channel Logo**
 
 
 - **Header Navigation Bar:** Includes a YouTube-style logo, responsive search bar, and user action icons like search, voice search, create, and notifications, closely resembling the real YouTube interface.
