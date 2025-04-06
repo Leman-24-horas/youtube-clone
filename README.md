@@ -12,7 +12,7 @@ This repository also contains documentation of the various lessons covered throu
 Note: Lessons 16 and 17 of the course focused entirely on finishing the final YouTube Clone project. Hence, there are no separate folders for these lessons; their content is reflected in the main project codebase for the YouTube clone itself.
 
 ### Repository Structure
-``` bash
+```
     youtube-clone\
                     |
                     |- course-materials\
