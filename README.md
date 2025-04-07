@@ -69,18 +69,18 @@ Note: Lessons 16 and 17 of the course focused entirely on finishing the final Yo
     **Tooltip - Channel Logo**
 
 
-- **Header Navigation Bar:** Includes a YouTube-style logo, responsive search bar, and user action icons like search, voice search, create, and notifications, closely resembling the real YouTube interface.
+- **Header Navigation Bar:** Includes the YouTube logo, responsive search bar, and user action icons like search, voice search, create, and notifications, closely resembling the real YouTube interface.
 
 - **Sidebar:** Displays navigation links such as Home, Explore, Subscriptions, etc. Its layout can also adapt depending on screen wdith, collapsing in narrower views and expanding in larger views. 
 
-- **Video Previews:** Videos are presented with styled thumbnails, titles, and channel info. Each video card is fully interactive - clicking on the thumbnail or video title opens the actual YouTube video in a new tab whereas clicking on the channel logo takes you to the actual channel's page.
+- **Video Previews:** Videos are presented with styled thumbnails, titles, and channel information. Each video card is fully interactive - clicking on the thumbnail or video title opens the actual YouTube video in a new tab whereas clicking on the channel logo takes you to the actual channel's page.
 
 ## Features of HTML/CSS Used
 - **CSS Grid:** For creating and structuring the main content area, allowing for a clean, responsive grid of video previews.
 
 - **Flexbox:** Used in the header and sidebar for flexible and efficient alignment of elements and in positioning and spacing elements within tooltips.
 
-- **CSS Position:** Utilized `absolute`, `relative`, and `fixed` positioning, along with `z-index` to control layering and placement, ensuring that tooltips appear correctly, and that the header remains fixed and visible while scrolling.
+- **CSS Position:** Utilized `absolute`, `relative`, and `fixed` positioning, along with `z-index` to control layering and placement, ensuring that tooltips appear correctly, and that the header and sidebar remain fixed and visible while scrolling.
 
 - **Nested Layouts:** Nested `<div>` elements are used throughout the project especially in video preview cards, header, and sidebar to group and align elements within one another for better control and styling.
 
@@ -106,4 +106,4 @@ Note: Lessons 16 and 17 of the course focused entirely on finishing the final Yo
 
 
 ## Demo
-// link to video
+Please find the video for the YouTube Clone demo [here](https://drive.google.com/file/d/1FrswRbX54AtUiOPc_mN91AAZ9QQ1HxfA/view?usp=sharing)
