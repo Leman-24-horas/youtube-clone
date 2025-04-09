@@ -109,3 +109,6 @@ Note: Lessons 16 and 17 of the course focused entirely on finishing the final Yo
 Please find the video for the YouTube Clone demo [here](https://drive.google.com/file/d/1FrswRbX54AtUiOPc_mN91AAZ9QQ1HxfA/view?usp=sharing)
 
 If there are any issues with playing the video on the cloud, please download the video and play it locally on your computer.
+
+## Acknowledgements
+HTML & CSS Full Course by SuperSimpleDev: https://youtu.be/G3e-cpL7ofc
