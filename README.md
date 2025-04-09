@@ -2,7 +2,7 @@
 *created by Aditya Kumar Bhardwaj*
 
 ## Overview
-This repository contains the source code for a clone of the **YouTube Homepage** built using **HTML** and **CSS** as part of the HTML & CSS course by SuperSimpleDev. The goal of this project was to learn **Web Development** with semantic HTML and styling layouts using modern CSS techniques. 
+This repository contains the source code for a clone of the **YouTube Homepage** built using **HTML** and **CSS** as part of the HTML & CSS course by SuperSimpleDev. The goal of this project was to learn **Web Development** with HTML and styling layouts using modern CSS techniques. 
 
 This repository also contains documentation of the various lessons covered throughout the course. You will find 15 folders in this repository corresponding to 15 lessons of this course. Each folder has 2 subfolders: **Learning** and **Exercises**.
 
